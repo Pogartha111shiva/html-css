@@ -1,0 +1,24 @@
+
+.raj{
+     display: flex;
+     flex-direction: column;
+}
+
+
+
+.side1{
+background: red;
+
+height: 50px;
+}
+.side2{
+    background: lightgreen;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.side3{
+    width: 300px;
+    background: yellow;
+
+}

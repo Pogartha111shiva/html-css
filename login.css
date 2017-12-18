@@ -1,0 +1,23 @@
+.div1{
+
+
+    background: red;
+    color:white;
+    height: 100px;
+    display: flex;
+}
+.div2{
+    background: yellow;
+    flex:1;
+    
+    
+}
+.titles{
+    flex:1;
+
+}
+.xyz{
+    flex-direction: column;
+    display: flex;
+
+}

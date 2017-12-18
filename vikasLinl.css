@@ -1,0 +1,27 @@
+.xyz{
+    background: skyblue;
+    flex-direction:column;
+    display: flex;
+}
+
+
+.div1{
+
+    background: red;
+    flex:1;
+    display: flex;
+
+}
+.div2{
+    background: yellow;
+    flex:1;
+}
+.div3{
+    background: lightgreen;
+    flex:1;
+
+}
+.div4{
+    background: lightsalmon;
+    flex:1;
+}
