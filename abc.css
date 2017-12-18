@@ -6,7 +6,7 @@ body {
     color: blue;
 }
 div {
-    height: 100px;
+    as: 100px;
     color: red;
 }
 #lastElement {
