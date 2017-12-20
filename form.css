@@ -1,0 +1,17 @@
+.rajesham{
+    display: flex;
+flex-wrap: wrap;
+
+}
+.input{
+    flex: 1;
+    margin: 5px;
+ 
+}
+.mainDiv{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}

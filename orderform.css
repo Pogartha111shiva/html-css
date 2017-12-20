@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.addressline{
+    
+    display: flex;
+    
+    
+
+
+}
+.address{
+    flex: 1;
+    margin: 5px;
+}
+.city{
+    
+    flex: 1;
+    margin: 5px;
+}
+
+
+

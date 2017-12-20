@@ -1,0 +1,9 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    height: 234px;
+    width: 235px;
+    justify-content: space-around
+    
+}
+
