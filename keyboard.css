@@ -1,0 +1,44 @@
+.raj{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 300px;
+
+
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+   
+    
+    
+}
+button{
+    padding: 15px;
+    background-color: #4d84840d;
+    color: blue;
+    flex: 1;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 2px;
+
+    
+}
+
+#bbbbbbbbspaceBar{
+    flex: 3;
+
+    
+
+}
+.div3{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.div4{
+    padding-left: 40px;
+    padding-right: 40px;
+}
