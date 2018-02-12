@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>variable hoisting</title>
+    </head>
+<body>
+
+<!-- hoisting - All declaration are lifted up
+-->    
+<script type="text/javascript">
+  //  var a    var b    var c
+     console.log(a); // undefined
+     console.log(b); // undefined
+     console.log(c); // undefined
+
+
+
+
+//   var a=10 var b    var c
+     var a = 10;
+     console.log(a); //10
+     console.log(b); // undefined
+     console.log(c); // undefined
+
+
+
+
+//   var a=10    var b    var c     
+     var b;
+     console.log(a);     // 10
+     console.log(b);     //undefined
+     console.log(c);     //undefined
+
+
+
+
+// var a= 10   var b    var c= 30    
+     c= 30
+     console.log(a);     // 10
+     console.log(b);     // undefined
+     console.log(c);     // 30
+
+
+
+// var a=10   var b=20    var c=30     
+     b= 20;
+     console.log(a);  //10
+     console.log(b);  //20
+     console.log(c);  //30
+
+
+
+// var a is change into =100    var b=20        var c=30
+     a= 100;
+     console.log(a);  //100
+     console.log(b);  //20
+     console.log(c);  //30
+
+
+
+
+// var a=100       var b=20     var c=30
+     var c
+     console.log(a); //100
+     console.log(b); //20
+     console.log(c); // 30
+
+
+
+</script>
+ </body>
+</html>
