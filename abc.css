@@ -6,7 +6,11 @@ body {
     color: blue;
 }
 div {
+<<<<<<< HEAD
     as: 100px;
+=======
+    height: 100px;
+>>>>>>> 17-1-2018 javascript files added
     color: red;
 }
 #lastElement {

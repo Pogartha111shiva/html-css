@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Objects</title>
+    </head>
+
+<body>
+Object-Nouns(Name)-properties(By Default)
+      -verbs(work)-Methods
+ 
+computer Nouns-(model,color,weight,screen,keyboard,mouse)      
+computer methods-browse
+
+
+
+<script type="text/javascript">
+  //{} literal Object
+  var computer = {
+
+            model:"mac",
+            color:"silver",
+            weight:1,
+            screen:1,
+            keyboard: {
+    color:"black",
+    numofkeys:100,
+    wireless:false,
+    typing: function() {console.log("I can type")},
+    keypressing: function() {console.log("key pressing")}
+            },
+            mouse:1,
+            browse: function() {console.log("I can browse")}
+
+  } 
+
+// computer.color or computer["color"]
+// computer.keyboard["numofkeys"]
+
+
+
+
+
+//Nouns- color,Numofkeys
+//verbs- typing,keypressing,wireless
+
+/*var keyboard = {
+    color:"black",
+    numofkeys:100,
+    wireless:false,
+    typing: function() {console.log("I can type")},
+    keypressing: function() {console.log("key pressing")}
+        
+    
+        
+    
+}
+*/
+
+
+
+
+
+
+</script>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+
+
+
+
+
+
+
+
+</html>

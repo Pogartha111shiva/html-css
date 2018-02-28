@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Function overloading</title>
+</head>
+
+<body>
+
+    hoisting - all Declaration are lifted up
+
+
+    <script type="text/javascript">
+        // var a                   var b                        var c                 
+
+        console.log(a); // undefined
+        console.log(b); // undefined
+        console.log(c); // undefined
+
+        var a = 10;
+        var a = 10
+        console.log(a); //10
+        console.log(b); //undefined
+        console.log(c); //undefined
+
+        var b;
+        console.log(a); //10
+        console.log(b); //undefined
+        console.log(c); //undefined
+
+        c = 30;
+        console.log(a);// 10
+        console.log(b); //undefined
+        console.log(c); //30
+
+        b = 20;
+
+        console.log(a); //10
+        console.log(b); //20
+        console.log(c); //30
+
+        a = 100;
+        console.log(a); //100
+        console.log(b); //20
+        console.log(c); //30
+
+
+
+        var c
+        console.log(a); //100
+        console.log(b); //20
+        console.log(c);n// 30
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

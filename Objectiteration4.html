@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>ObjectIteration</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        var computer = {
+            model: "mac",
+            color: "silver",
+            weight: "1",
+            screen: "1",   
+            keyboard: "1"
+        }
+
+
+        var amma = Object.keys(computer)
+        console.log(amma)
+
+        for (i = 0; i < amma.length; i++) {
+            //console.log(amma[i]);
+
+            console.log(amma[i] + ":" + computer[amma[i]]);
+        }
+
+
+    </script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
