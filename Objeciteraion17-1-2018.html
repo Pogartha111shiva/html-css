@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>ObjectIteration</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+var computer ={
+    model:"mac",
+    color:"silver",
+    weight:1,
+    screen:1,
+    keyboard:1,
+}
+
+// computer["color"] or computer.color
+var array = Object.keys(computer)
+console.log(array)
+
+for(var i =0;i<array.length;i++){
+   // console.log(array[i]);...
+   
+
+
+   console.log(array[i]+ ":" +co`   mputer[array[i]]);
+}
+
+// for in loop 
+for(d in computer){
+    console.log(computer[d]);
+}
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

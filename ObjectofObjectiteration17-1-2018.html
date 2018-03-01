@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>ObjectofObjectIteration</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        var computer = {
+            model: "mac",
+            color: "silver",
+            weight: "1",
+            screen: "1",
+            keyboard: {
+                color: "black",
+                numofkeys: 100,
+                wireless: false,
+                typing: function () { console.log("I can type") },
+                keypressing: function () { console.log("keypressing") }
+            }
+
+        }
+//  console.log(computer[l]);
+
+/*for(l in computer){
+    if(typeof computer[l] == 'object'){
+        for(p in computer[l]){
+            console.log(computer[l][p])
+        }
+    }
+    console.log(computer[l]);
+}*/
+
+for(y in computer){
+    if(typeof computer[y] == 'object'){
+        for(r in computer[y]){
+            console.log(computer[y][r])
+        }
+    }
+    console.log(computer[y]);
+}
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
